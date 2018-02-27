@@ -1,0 +1,12 @@
+<h1><%= @division.title %></h1>
+
+<% if @employees.any? %>
+
+ <% @employees.each() do |employee| %>
+   <%= employee.name %>
+ <% end %>
+   <% else %>
+
+     <p>Add a SUPER STAR</p>
+
+ <% end %>

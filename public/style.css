@@ -1,0 +1,30 @@
+*{
+  border: 1px black solid;
+}
+
+
+html {
+  background: url('/img/tower.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  background: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar h3 a{
+  color: #2B2B2B;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin-top: 500px;
+}

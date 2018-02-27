@@ -1,0 +1,19 @@
+<% if @divisions.any? %>
+
+<% @divisions.each() do |division| %>
+  <a href="/divisions/<%= division.id %>"><%= division.name %></a> 
+<% end %>
+  <% else %>
+
+    <p>CREATE A DIVISION</p>
+
+<% end %>
+
+<h2>Add Super Star Money Makers</h2>
+
+<form id="name" action="/employees" method="post">
+  <label for="name"><h4>Super Star Name</h4></label>
+  <input type="text" name="name">
+
+    <button type="submit">Super Star Name</button>
+</form>
